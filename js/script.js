@@ -78,5 +78,7 @@ function moveUpDown(element, speed, way) {
 //Calls
 moveHome();
 fadeIn(homeE, 100);
+fadeIn(aboutE, 100);
+fadeIn(contactE, 100);
 moveUpDown(aboutE, 1, "up");
 moveUpDown(contactE,1,"down");
