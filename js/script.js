@@ -18,19 +18,3 @@ function moveRight() {
 }
 
 moveRight();
-
-function moveLeft(callback) {
-    var moveElemLeft = setInterval(plus, 10);
-    function plus() {
-        right = 0;
-        if (right == 300) {
-            clearInterval(moveElemLeft);
-        } else {
-            right++;
-            homeE.style.right = right + "px";
-        }
-    }
-    callback();
-}
-
-moveLeft(moveRight);
