@@ -24,10 +24,6 @@ margin-top: 0px;
     border: #E9E9E9 2px solid;
     padding: 10px;
 }
-#headcontainer{
-}
-
-
 
 /* Navbar */
 
@@ -36,15 +32,12 @@ margin-top: 0px;
     height: 50px;
     border: solid black 2px;
     border-radius: 50%;
-    position: absolute;
-}
-#list{
-    text-align: right;
+    grid-column: 1/2;
+    margin-left: 20px;
 }
 #list li{
     display: inline-block;
     padding: 0px 30px;
-    left: 30px;
 }
 #list li a{
     font-size: 20px;
@@ -52,4 +45,12 @@ margin-top: 0px;
     text-decoration: none;
     color: #4EB1BA;
     position: relative;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#list{
+    grid-column: 2/3;
+    text-align: end;
 }
