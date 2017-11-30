@@ -54,5 +54,9 @@ margin-top: 0px;
     position: relative;
 }
 #homeElem{
-    right: 300px;
+    right: 200px;
+    opacity: 0;
+}
+#aboutElem{
+    top:100px;
 }
