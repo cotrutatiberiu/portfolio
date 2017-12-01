@@ -87,16 +87,9 @@ body {
 
 /* Work */
 
-#work{
-  background-color: rgba(160, 160, 160, 0.171);
-}
 
-#projects{
-  display: grid;
-  grid-template-columns: repeat(12,1fr);
-  grid-auto-rows: minmax(350px,auto);
-  grid-column: 1/5;
-}
+
+
 
 #testprojects{
   display: grid;
@@ -111,24 +104,24 @@ body {
   grid-auto-rows: auto;
 }
 .window1{
-  grid-column: 3/5;
+  grid-column: 2/5;
 }
 .window2{
-  grid-column: 6/8;
+  grid-column: 6/9;
 } 
 .window3{
-  grid-column: 9/11;
+  grid-column: 10/13;
 }
 .window4{
-  grid-column: 3/5;
+  grid-column: 2/5;
   margin-top: 20px;
 }
 .window5{
-  grid-column: 6/8;
+  grid-column: 6/9;
   margin-top: 20px;
 }
 .window6{
-  grid-column: 9/11;
+  grid-column: 10/13 ;
   margin-top: 20px;
 }
 .row1{
@@ -143,8 +136,34 @@ body {
   grid-row: 3/4;
   text-align: center;
 }
-#tesc{
+
+.workimg{
+  height: 100px;
+  width: 100px;
+}
+
+#work{
+  background-color: rgba(160, 160, 160, 0.171);
+}
+
+#container{
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: 5% 90% 5%;
+
+}
+#projectsbackground{
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
   background-color: #424d55;
+}
+#projects{
+  grid-row: 2/3;
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: 30px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 30px;
+  grid-auto-rows: minmax(350px,auto);
+  background-color: red;
+
 }
