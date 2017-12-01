@@ -180,3 +180,9 @@ body {
   border-color:#4eb1ba;
   transition: background-color 0.5s;
 }
+.row3 p{
+  font-family: "Century Gothic";
+}
+.row1 h2{
+  font-family: "Franklin Gothic Medium"
+}
