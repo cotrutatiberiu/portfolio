@@ -178,7 +178,9 @@ body {
 }
 .windowProp:hover{
   border-color:#4eb1ba;
+  transition: border-color 0.5s;
   transition: background-color 0.5s;
+  background-color: #424d55;
 }
 .row3 p{
   font-family: "Century Gothic";
