@@ -2,13 +2,19 @@ body {
   margin: 0px;
   padding: 0px;
 }
+.font1{
+  font-family: "Century Gothic";
+}
+.font2{
+  font-family: "Franklin Gothic Medium";
+}
 
 /* Navbar */
 
 .tornado {
   width: 50px;
   height: 50px;
-  border: solid black 2px;
+  border: solid #cae0e0 2px;
   border-radius: 50%;
   grid-column: 1/2;
   margin-left: 20px;
@@ -66,9 +72,8 @@ body {
   
   #toptext{
     color: #4eb1ba;
-    font-family: "Franklin Gothic Medium";
     grid-column: 1/2;
-    
+    font-size: 20px;
   }
   #spanHead {
     border: #e9e9e9 2px solid;
@@ -133,7 +138,7 @@ body {
 }
 
 #work{
-  background-color: rgb(143, 136, 136);
+  background-color: #f3fafa;
 }
 
 .containerprojects{
@@ -146,8 +151,10 @@ body {
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   grid-template-rows: 50px 1fr 50px;
-  background-color: #5b5d5f;
+  background-color: #cae0e0;
   align-items:center;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px white solid;
 }
 .projects{
   grid-row: 2/3;
@@ -155,7 +162,9 @@ body {
   display: grid;
   grid-template-columns: 30px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 30px;
   grid-template-rows: 30px 350px 30px 350px 30px;
-  background-color: rgb(96, 96, 99);
+  background-color: #96bdc0;
+  border-radius: 30px 30px 30px 30px;
+  border: 2px white solid;
 }
 .windowProp{
   display: grid;
