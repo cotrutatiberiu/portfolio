@@ -113,27 +113,16 @@ body {
 }
 .row1{
   grid-row: 1/2;
-  border-top-left-radius: 40px;
-  border-top-right-radius: 40px;
 }
 .row2{
   grid-row: 2/3;
 }
 .row3{
   grid-row: 3/4;
-  border-bottom-left-radius: 40px;
-  border-bottom-right-radius: 40px;
 }
 .rowWindow{
   text-align: center;
-  border: solid 2px #718596;
-  background-color: #182029;
 }
-.rowWindow:hover{
-  border-color:#4eb1ba;
-  transition: background-color 0.5s;
-}
-
 .workimg{
   height: 100px;
   width: 100px;
@@ -174,4 +163,11 @@ body {
   grid-auto-rows: auto;
   text-decoration: none;
   color: #4eb1ba;
+  border: solid 5px #718596;
+  background-color: #182029;
+  border-radius: 40px 40px 40px 40px;
+}
+.windowProp:hover{
+  border-color:#4eb1ba;
+  transition: background-color 0.5s;
 }
