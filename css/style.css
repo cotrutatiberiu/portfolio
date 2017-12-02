@@ -139,15 +139,24 @@ body {
 
 #work{
   background-color: #f3fafa;
-}
-
-.containerprojects{
   display: grid;
-  grid-template-columns: 5% 90% 5%;
-
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 80px 1fr 50px 1fr 80px;
 }
 .projectsbackground{
   grid-column: 2/3;
+  grid-row:2/3;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  grid-template-rows: 50px 1fr 50px;
+  background-color: #cae0e0;
+  align-items:center;
+  border-radius: 20px 20px 20px 20px;
+  border: 2px white solid;
+}
+.testbackground{
+  grid-column: 2/3;
+  grid-row: 4/5;
   display: grid;
   grid-template-columns: 50px 1fr 50px;
   grid-template-rows: 50px 1fr 50px;
@@ -172,7 +181,7 @@ body {
   grid-auto-rows: auto;
   text-decoration: none;
   color: #4eb1ba;
-  border: solid 5px #718596;
+  border: solid 4px #718596;
   background-color: #182029;
   border-radius: 40px 40px 40px 40px;
 }
@@ -187,4 +196,14 @@ body {
 }
 .row1 h2{
   font-family: "Franklin Gothic Medium"
+}
+.tag{
+  color: #182029;
+}
+.tag::before {
+  content:" ";
+  position: absolute;
+  border-bottom:3px solid #182029; /*use this to adjust underlin color and size*/
+  width:180px;  /*use this to adjust underline width*/
+  height:45px; /*use this to adjust underline position*/
 }

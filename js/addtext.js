@@ -19,4 +19,4 @@ function addText(element,speed,text){
     console.log(array[0]);
 }
 
-addText(text,50,"Hello,my name is Cotruta Tiberiu,I am a Front End Developer living in Romania,Iasi");
+addText(text,50,"Hello,my name is Cotruta Tiberiu,I am a Front End Developer living in Romania,Iasi(portfolio under construction)");
