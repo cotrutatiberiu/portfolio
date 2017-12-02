@@ -203,7 +203,15 @@ body {
 .tag::before {
   content:" ";
   position: absolute;
-  border-bottom:3px solid #182029; /*use this to adjust underlin color and size*/
-  width:180px;  /*use this to adjust underline width*/
-  height:45px; /*use this to adjust underline position*/
+  border-bottom:3px solid #182029;
+  width:180px;
+  height:45px;
+}
+
+/* About */
+
+#about{
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 
 }
