@@ -226,3 +226,19 @@ body {
 .colortext{
   color: #222930;
 }
+
+/* Contact */
+#contact{
+  display: grid;
+  grid-template-rows: 50px 1fr;
+  grid-template-columns: 130px 1fr 130px;
+}
+#contactcontainer{
+  grid-column: 2/3;
+  grid-row:2/3;
+  margin: 0px 200px;
+}
+#contactlist{
+  list-style-type: none;
+  display: inline-block;
+}
