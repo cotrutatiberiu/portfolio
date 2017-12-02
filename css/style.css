@@ -214,7 +214,7 @@ body {
 
 #about{
   display: grid;
-  grid-template-rows: 50px 1fr;
+  grid-template-rows: 100px 1fr 30px;
   grid-template-columns: 130px 1fr 130px;
 }
 #textcontainer{
@@ -236,9 +236,12 @@ body {
 #contactcontainer{
   grid-column: 2/3;
   grid-row:2/3;
-  margin: 0px 200px;
 }
-#contactlist{
+.contactlist{
   list-style-type: none;
+  text-align: center;
+}
+.contactlist li{
   display: inline-block;
+  margin: 0px 30px;
 }
