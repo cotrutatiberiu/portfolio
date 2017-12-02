@@ -198,14 +198,16 @@ body {
   font-family: "Franklin Gothic Medium"
 }
 .tag{
-  color: #182029;
+  color: #222930;
+  align-self:center;
+  font-size:35px;
 }
 .tag::before {
   content:" ";
   position: absolute;
   border-bottom:3px solid #182029;
   width:180px;
-  height:45px;
+  height:40px;
 }
 
 /* About */
@@ -213,5 +215,14 @@ body {
 #about{
   display: grid;
   grid-template-rows: 50px 1fr;
-  grid-template-columns: 
+  grid-template-columns: 130px 1fr 130px;
+}
+#textcontainer{
+  grid-row:2/3;
+  grid-column: 2/3;
+  margin: 0px 200px;
+  background-color: #f3fafa;
+}
+.colortext{
+  color: #222930;
 }
