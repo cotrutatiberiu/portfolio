@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
     #spanHead{
         border:none;
     }
@@ -71,4 +71,46 @@
         grid-template-columns: 60px 1fr 60px;
     }
     
+}
+
+@media (max-width: 730px) {
+    #list{
+        display: none;
+        grid-column: 1/2;
+    }
+    #mobilelist{
+        grid-column: 2/3;
+        grid-row:1/2;
+        text-align: right;
+        padding: 0px;
+        margin-top: 40px;
+        margin-right: 5px;
+    }
+    #mobilelist li{
+        margin: 5px 0px;
+    }
+    .navbar{
+        grid-template-rows: minmax(50px,auto);
+        padding: 0px;
+    }
+    .button{
+        color: red;
+        grid-row: 1/2;
+        grid-column: 2/3;
+        font-size: 20px;
+        text-align: right;
+        margin-right: 5px;
+    }
+    #btn-menu{
+        text-decoration: none;
+        display: inline;
+        color: #4eb1ba;
+    }
+    .buttonTop{
+        border: #718596 2px solid;
+        padding: 0px;
+        border-radius: 15px/45px;
+        text-decoration: none;
+        color: #4eb1ba;
+      }
 }
