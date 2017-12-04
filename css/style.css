@@ -55,6 +55,13 @@ body {
   border-color:#4eb1ba;
   transition: background-color 0.5s;
 }
+#mobilelist{
+  display: none;
+  list-style-type: none;
+}
+#btn-menu{
+  display: none;
+}
 
 /* Top Header */
 #avatar {
